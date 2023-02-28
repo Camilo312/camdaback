@@ -1,0 +1,6 @@
+2023-02-20 21:10:17 error: [POST] /users >> StatusCode:: 500, Message:: Unknown column 'inventory_id' in 'field list'
+2023-02-20 21:10:38 error: [POST] /users >> StatusCode:: 500, Message:: notNull Violation: UserModel.inventoryId cannot be null
+2023-02-20 21:19:10 error: [POST] /users >> StatusCode:: 409, Message:: This email email@prueba.com already exists
+2023-02-20 21:30:39 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email, company must be a string, userName must be a string
+2023-02-20 21:32:46 error: [POST] /login >> StatusCode:: 409, Message:: Password not matching
+2023-02-20 21:37:41 error: [POST] /login >> StatusCode:: 409, Message:: Password not matching

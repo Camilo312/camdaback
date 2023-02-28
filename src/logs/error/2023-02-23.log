@@ -1,0 +1,15 @@
+2023-02-23 08:36:09 error: uncaughtException: connect ECONNREFUSED ::1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306
+    at ConnectionManager.connect (C:\Users\camil\OneDrive\Escritorio\camda back\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\camil\OneDrive\Escritorio\camda back\node_modules\sequelize\src\dialects\abstract\connection-manager.js:326:24)
+    at async C:\Users\camil\OneDrive\Escritorio\camda back\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-02-23 08:36:09 error: uncaughtException: connect ECONNREFUSED ::1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306
+    at ConnectionManager.connect (C:\Users\camil\OneDrive\Escritorio\camda back\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\camil\OneDrive\Escritorio\camda back\node_modules\sequelize\src\dialects\abstract\connection-manager.js:326:24)
+    at async C:\Users\camil\OneDrive\Escritorio\camda back\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-02-23 08:40:47 error: [POST] /login >> StatusCode:: 400, Message:: Unexpected token } in JSON at position 64
+2023-02-23 08:49:23 error: [POST] /login >> StatusCode:: 409, Message:: Password not matching
+2023-02-23 08:49:27 error: [POST] /login >> StatusCode:: 409, Message:: Password not matching

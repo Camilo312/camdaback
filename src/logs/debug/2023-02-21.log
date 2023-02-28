@@ -1,0 +1,279 @@
+2023-02-21 10:59:22 info: =================================
+2023-02-21 10:59:22 info: ======= ENV: development =======
+2023-02-21 10:59:22 info: 🚀 App listening on the port 3000
+2023-02-21 10:59:23 info: =================================
+2023-02-21 10:59:23 info: 3ms Executed (default): SELECT 1+1 AS result
+2023-02-21 10:59:23 info: 18ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 10:59:23 info: 48ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:00:38 info: [0mGET /main.a35d3bf5e1a558372471.hot-update.json [33m404[0m 21.700 ms - 180[0m
+2023-02-21 11:00:38 info: [0mGET /login [33m404[0m 2.957 ms - 144[0m
+2023-02-21 11:00:48 info: [0mGET /login [33m404[0m 0.973 ms - 144[0m
+2023-02-21 11:01:25 info: [0mOPTIONS /login [32m204[0m 0.951 ms - 0[0m
+2023-02-21 11:01:25 info: 4ms Executed (default): SELECT `id`, `email`, `password`, `company`, `inventory_id` AS `inventoryId`, `user_name` AS `userName`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`email` = 'email@prueba.com' LIMIT 1;
+2023-02-21 11:01:25 info: [0mPOST /login [32m200[0m 203.785 ms - 270[0m
+2023-02-21 11:05:05 info: =================================
+2023-02-21 11:05:05 info: ======= ENV: development =======
+2023-02-21 11:05:05 info: 🚀 App listening on the port 3000
+2023-02-21 11:05:05 info: =================================
+2023-02-21 11:05:05 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:05:05 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:05:05 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:05:09 info: =================================
+2023-02-21 11:05:09 info: ======= ENV: development =======
+2023-02-21 11:05:09 info: 🚀 App listening on the port 3000
+2023-02-21 11:05:09 info: =================================
+2023-02-21 11:05:09 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:05:09 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:05:09 info: 5ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:06:52 info: =================================
+2023-02-21 11:06:52 info: ======= ENV: development =======
+2023-02-21 11:06:52 info: 🚀 App listening on the port 3000
+2023-02-21 11:06:52 info: =================================
+2023-02-21 11:06:52 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:06:52 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:06:52 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:07:43 info: =================================
+2023-02-21 11:07:43 info: ======= ENV: development =======
+2023-02-21 11:07:43 info: 🚀 App listening on the port 3000
+2023-02-21 11:07:43 info: =================================
+2023-02-21 11:07:43 info: 3ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:07:43 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:07:43 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:08:19 info: =================================
+2023-02-21 11:08:19 info: ======= ENV: development =======
+2023-02-21 11:08:19 info: 🚀 App listening on the port 3000
+2023-02-21 11:08:19 info: =================================
+2023-02-21 11:08:19 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:08:19 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:08:19 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:10:48 info: =================================
+2023-02-21 11:10:48 info: ======= ENV: development =======
+2023-02-21 11:10:48 info: 🚀 App listening on the port 3000
+2023-02-21 11:10:48 info: =================================
+2023-02-21 11:10:49 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:10:49 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:10:49 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:11:41 info: =================================
+2023-02-21 11:11:41 info: ======= ENV: development =======
+2023-02-21 11:11:41 info: 🚀 App listening on the port 3000
+2023-02-21 11:11:41 info: =================================
+2023-02-21 11:11:41 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:11:41 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:11:41 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:12:19 info: =================================
+2023-02-21 11:12:19 info: ======= ENV: development =======
+2023-02-21 11:12:19 info: 🚀 App listening on the port 3000
+2023-02-21 11:12:19 info: =================================
+2023-02-21 11:12:20 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:12:20 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:12:20 info: 5ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:12:41 info: =================================
+2023-02-21 11:12:41 info: ======= ENV: development =======
+2023-02-21 11:12:41 info: 🚀 App listening on the port 3000
+2023-02-21 11:12:41 info: =================================
+2023-02-21 11:12:41 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:12:41 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:12:41 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:13:01 info: =================================
+2023-02-21 11:13:01 info: ======= ENV: development =======
+2023-02-21 11:13:01 info: 🚀 App listening on the port 3000
+2023-02-21 11:13:01 info: =================================
+2023-02-21 11:13:01 info: 3ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:13:01 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:13:01 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:14:16 info: =================================
+2023-02-21 11:14:16 info: ======= ENV: development =======
+2023-02-21 11:14:16 info: 🚀 App listening on the port 3000
+2023-02-21 11:14:16 info: =================================
+2023-02-21 11:14:16 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:14:16 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:14:16 info: 5ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:14:16 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:14:16 info: 2ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:15:08 info: =================================
+2023-02-21 11:15:08 info: ======= ENV: development =======
+2023-02-21 11:15:08 info: 🚀 App listening on the port 3000
+2023-02-21 11:15:08 info: =================================
+2023-02-21 11:15:08 info: 6ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:15:08 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:15:08 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:15:08 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:15:08 info: 2ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:15:17 info: =================================
+2023-02-21 11:15:17 info: ======= ENV: development =======
+2023-02-21 11:15:17 info: 🚀 App listening on the port 3000
+2023-02-21 11:15:17 info: =================================
+2023-02-21 11:15:17 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:15:17 info: 5ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:15:17 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:15:17 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:15:17 info: 1ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:16:45 info: =================================
+2023-02-21 11:16:45 info: ======= ENV: development =======
+2023-02-21 11:16:45 info: 🚀 App listening on the port 3000
+2023-02-21 11:16:45 info: =================================
+2023-02-21 11:16:45 info: 5ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:16:45 info: 6ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:16:45 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:16:45 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:16:45 info: 2ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:20:25 info: =================================
+2023-02-21 11:20:25 info: ======= ENV: development =======
+2023-02-21 11:20:25 info: 🚀 App listening on the port 3000
+2023-02-21 11:20:25 info: =================================
+2023-02-21 11:20:25 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:20:25 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:20:25 info: 6ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:20:25 info: 8ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:20:25 info: 2ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:20:54 info: =================================
+2023-02-21 11:20:54 info: ======= ENV: development =======
+2023-02-21 11:20:54 info: 🚀 App listening on the port 3000
+2023-02-21 11:20:54 info: =================================
+2023-02-21 11:20:55 info: 4ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:20:55 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:20:55 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:20:55 info: 8ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:20:55 info: 2ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:21:09 info: =================================
+2023-02-21 11:21:09 info: ======= ENV: development =======
+2023-02-21 11:21:09 info: 🚀 App listening on the port 3000
+2023-02-21 11:21:09 info: =================================
+2023-02-21 11:21:09 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:21:09 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:21:09 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:21:09 info: 6ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:21:09 info: 1ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:24:17 info: =================================
+2023-02-21 11:24:17 info: ======= ENV: development =======
+2023-02-21 11:24:17 info: 🚀 App listening on the port 3000
+2023-02-21 11:24:17 info: =================================
+2023-02-21 11:24:17 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:24:17 info: 4ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:24:17 info: 7ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:24:17 info: 0ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:24:17 info: 1ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:25:01 info: =================================
+2023-02-21 11:25:01 info: ======= ENV: development =======
+2023-02-21 11:25:01 info: 🚀 App listening on the port 3000
+2023-02-21 11:25:01 info: =================================
+2023-02-21 11:25:01 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:25:01 info: 4ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:25:01 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:25:01 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:25:01 info: 5ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:25:46 info: =================================
+2023-02-21 11:25:46 info: ======= ENV: development =======
+2023-02-21 11:25:46 info: 🚀 App listening on the port 3000
+2023-02-21 11:25:46 info: =================================
+2023-02-21 11:25:46 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:25:46 info: 4ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:25:46 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:25:46 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:25:46 info: 1ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:25:51 info: =================================
+2023-02-21 11:25:51 info: ======= ENV: development =======
+2023-02-21 11:25:51 info: 🚀 App listening on the port 3000
+2023-02-21 11:25:51 info: =================================
+2023-02-21 11:25:52 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:25:52 info: 5ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:25:52 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:25:52 info: 7ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:25:52 info: 2ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:26:01 info: =================================
+2023-02-21 11:26:01 info: ======= ENV: development =======
+2023-02-21 11:26:01 info: 🚀 App listening on the port 3000
+2023-02-21 11:26:01 info: =================================
+2023-02-21 11:26:01 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:26:01 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:26:01 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:26:01 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:26:01 info: 3ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:26:23 info: =================================
+2023-02-21 11:26:23 info: ======= ENV: development =======
+2023-02-21 11:26:23 info: 🚀 App listening on the port 3000
+2023-02-21 11:26:23 info: =================================
+2023-02-21 11:26:23 info: 4ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:26:23 info: 4ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:26:23 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:26:23 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:26:23 info: 2ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:26:45 info: =================================
+2023-02-21 11:26:45 info: ======= ENV: development =======
+2023-02-21 11:26:45 info: 🚀 App listening on the port 3000
+2023-02-21 11:26:45 info: =================================
+2023-02-21 11:26:45 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:26:45 info: 4ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:26:45 info: 5ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:26:45 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:26:45 info: 2ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:27:46 info: =================================
+2023-02-21 11:27:46 info: ======= ENV: development =======
+2023-02-21 11:27:46 info: 🚀 App listening on the port 3000
+2023-02-21 11:27:46 info: =================================
+2023-02-21 11:27:46 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:27:46 info: 4ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:27:46 info: 5ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:27:46 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:27:46 info: 8ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:27:59 info: =================================
+2023-02-21 11:27:59 info: ======= ENV: development =======
+2023-02-21 11:27:59 info: 🚀 App listening on the port 3000
+2023-02-21 11:27:59 info: =================================
+2023-02-21 11:28:00 info: 4ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:28:00 info: 5ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:28:00 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:28:00 info: 7ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:28:00 info: 2ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:28:13 info: =================================
+2023-02-21 11:28:13 info: ======= ENV: development =======
+2023-02-21 11:28:13 info: 🚀 App listening on the port 3000
+2023-02-21 11:28:13 info: =================================
+2023-02-21 11:28:13 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:28:13 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:28:13 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:28:13 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:28:13 info: 2ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:28:27 info: =================================
+2023-02-21 11:28:27 info: ======= ENV: development =======
+2023-02-21 11:28:27 info: 🚀 App listening on the port 3000
+2023-02-21 11:28:27 info: =================================
+2023-02-21 11:28:27 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:28:27 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:28:27 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:28:27 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:28:27 info: 1ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:30:46 info: =================================
+2023-02-21 11:30:46 info: ======= ENV: development =======
+2023-02-21 11:30:46 info: 🚀 App listening on the port 3000
+2023-02-21 11:30:46 info: =================================
+2023-02-21 11:30:46 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:30:46 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:30:46 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:30:46 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:30:46 info: 2ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:32:02 info: =================================
+2023-02-21 11:32:02 info: ======= ENV: development =======
+2023-02-21 11:32:02 info: 🚀 App listening on the port 3000
+2023-02-21 11:32:02 info: =================================
+2023-02-21 11:32:02 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:32:02 info: 4ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:32:02 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:32:02 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:32:02 info: 2ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 11:32:13 error: [POST] /inventory >> StatusCode:: 400, Message:: property email should not exist, property password should not exist, property company should not exist, property userName should not exist, name must be a string, amount must be a number conforming to the specified constraints, attribute must be a string
+2023-02-21 11:32:13 info: [0mPOST /inventory [33m400[0m 40.416 ms - 268[0m
+2023-02-21 11:32:22 info: 2ms Executed (default): SELECT `id`, `name`, `amount`, `attributes` FROM `inventory` AS `InventoryModel`;
+2023-02-21 11:32:22 info: [0mGET /inventory [32m200[0m 16.943 ms - 31[0m
+2023-02-21 11:34:03 info: =================================
+2023-02-21 11:34:03 info: ======= ENV: development =======
+2023-02-21 11:34:03 info: 🚀 App listening on the port 3000
+2023-02-21 11:34:03 info: =================================
+2023-02-21 11:34:03 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-02-21 11:34:03 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:34:03 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-02-21 11:34:03 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventory' AND TABLE_SCHEMA = 'camda'
+2023-02-21 11:34:03 info: 1ms Executed (default): SHOW INDEX FROM `inventory`
+2023-02-21 12:42:30 info: [0mOPTIONS /login [32m204[0m 3.390 ms - 0[0m
+2023-02-21 12:42:30 info: 4ms Executed (default): SELECT `id`, `email`, `password`, `company`, `inventory_id` AS `inventoryId`, `user_name` AS `userName`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`email` = 'email@prueba.com' LIMIT 1;
+2023-02-21 12:42:30 info: [0mPOST /login [32m200[0m 166.523 ms - 270[0m

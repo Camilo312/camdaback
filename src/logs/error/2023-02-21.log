@@ -1,0 +1,1 @@
+2023-02-21 11:32:13 error: [POST] /inventory >> StatusCode:: 400, Message:: property email should not exist, property password should not exist, property company should not exist, property userName should not exist, name must be a string, amount must be a number conforming to the specified constraints, attribute must be a string
