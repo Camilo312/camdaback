@@ -1,15 +1,16 @@
-import { Sequelize, DataTypes, Model, Optional } from 'sequelize';
-import { User } from '@interfaces/users.interface';
 import { Inventory } from '@/interfaces/inventory.interface';
+import { ModelContainer } from '@/utils/model';
+import { DataTypes, Model, Sequelize } from 'sequelize';
 
-export type InventoryCreationAttributes = Optional<Inventory, 'id' | 'name' | 'amount' | 'attributes'>;
-
-export class InventoryModel extends Model<Inventory, InventoryCreationAttributes> implements Inventory {
+export class InventoryModel extends Model implements Inventory {
   id: number;
   name: string;
-  amount: number;
-  attributes: string;
+  description: string;
+  public readonly createdAt!: Date;
+  public readonly updatedAt!: Date;
 }
+
+ModelContainer.addModel('Inventory', InventoryModel);
 
 export default function (sequelize: Sequelize): typeof InventoryModel {
   InventoryModel.init(
@@ -23,19 +24,14 @@ export default function (sequelize: Sequelize): typeof InventoryModel {
         allowNull: false,
         type: DataTypes.STRING(45),
       },
-      amount: {
+      description: {
         allowNull: false,
-        type: DataTypes.INTEGER,
-      },
-      attributes: {
-        allowNull: false,
-        type: DataTypes.STRING(45),
+        type: DataTypes.STRING(255),
       },
     },
     {
       tableName: 'inventory',
       sequelize,
-      timestamps: false,
     },
   );
 

@@ -12,6 +12,11 @@ import DB from '@databases';
 import { Routes } from '@interfaces/routes.interface';
 import errorMiddleware from '@middlewares/error.middleware';
 import { logger, stream } from '@utils/logger';
+import 'reflect-metadata';
+
+import Alerts from './utils/alerts';
+import Jobs from './utils/jobs';
+import MailSender from './utils/mailSender';
 
 class App {
   public app: express.Application;
@@ -28,6 +33,9 @@ class App {
     this.initializeRoutes(routes);
     this.initializeSwagger();
     this.initializeErrorHandling();
+    this.setJobs();
+    this.initializeJobs();
+    this.initializeMailSender();
   }
 
   public listen() {
@@ -56,6 +64,7 @@ class App {
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(cookieParser());
+    this.app.use(express.static(__dirname + '/public'));
   }
 
   private initializeRoutes(routes: Routes[]) {
@@ -80,8 +89,21 @@ class App {
     this.app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
   }
 
+  private initializeMailSender() {
+    MailSender.initializeTransporter();
+  }
+
   private initializeErrorHandling() {
     this.app.use(errorMiddleware);
+  }
+
+  private setJobs() {
+    //Alerts.itemsAlerts();
+    Jobs.createJob('00 29 10 * * *', Alerts.itemsAlerts);
+  }
+
+  private initializeJobs() {
+    Jobs.startJobs();
   }
 }
 

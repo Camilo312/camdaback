@@ -1,8 +1,9 @@
-export interface User {
+import { generalInterface } from './general.interface';
+
+export interface User extends generalInterface {
   id: number;
   email: string;
   password: string;
   company: string;
-  inventoryId: number;
   userName: string;
 }
