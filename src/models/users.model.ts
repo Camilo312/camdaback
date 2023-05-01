@@ -3,12 +3,12 @@ import { User } from '@interfaces/users.interface';
 import { ModelContainer } from '@/utils/model';
 
 export class UserModel extends Model implements User {
-  public id: number;
-  public email: string;
-  public password: string;
-  public company: string;
-  public inventoryId: number;
-  public userName: string;
+  id: number;
+  email: string;
+  password: string;
+  company: string;
+  inventoryId: number;
+  userName: string;
 
   public readonly createdAt!: Date;
   public readonly updatedAt!: Date;
