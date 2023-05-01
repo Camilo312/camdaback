@@ -28,7 +28,9 @@ const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
     logger.info(time + 'ms' + ' ' + query);
   },
   benchmark: true,
-  ssl: true,
+  dialectOptions: {
+    ssl: true,
+  },
 });
 
 sequelize.authenticate();
