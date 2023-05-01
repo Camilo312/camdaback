@@ -26,12 +26,12 @@ class AuthService {
   public async login(userData: CreateUserDto): Promise<{ cookie: string; findUser: User }> {
     if (isEmpty(userData)) throw new HttpException(400, 'userData is empty');
 
-    const findUser: User = await this.users.findOne({ where: { email: userData.email } });
+    const findUser: any = await this.users.findOne({ where: { email: userData.email } });
     if (!findUser) throw new HttpException(409, `This email ${userData.email} was not found`);
 
-    console.log(userData.password, findUser);
+    console.log(userData.password, findUser.dataValues);
 
-    const isPasswordMatching: boolean = await compare(userData.password, findUser.password);
+    const isPasswordMatching: boolean = await compare(userData.password, findUser.dataValues.password);
     if (!isPasswordMatching) throw new HttpException(409, 'Password not matching');
 
     const tokenData = this.createToken(findUser);
