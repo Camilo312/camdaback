@@ -1,15 +1,28 @@
-FROM node:alpine
+# Common build stage
+FROM node:14.14.0-alpine3.12 as common-build-stage
 
-RUN mkdir -p /usr/src/node-app && chown -R node:node /usr/src/node-app
+COPY . ./app
 
-WORKDIR /usr/src/node-app
+WORKDIR /app
 
-COPY package.json yarn.lock ./
-
-USER node
-
-RUN yarn install --pure-lockfile
-
-COPY --chown=node:node . .
+RUN npm install
 
 EXPOSE 3000
+
+# Development build stage
+FROM common-build-stage as development-build-stage
+
+RUN chmod +x /app/docker-entrypoint.sh
+
+ENTRYPOINT [ "docker-entrypoint.sh" ]
+
+ENV NODE_ENV development
+
+CMD ["npm", "run", "dev"]
+
+# Production build stage
+FROM common-build-stage as production-build-stage
+
+ENV NODE_ENV production
+
+CMD ["npm", "run", "start"]
