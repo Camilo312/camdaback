@@ -48,9 +48,9 @@ const DB = {
   Sequelize, // library
 };
 
-//DB.InventoryUser.hasOne(DB.Users, { sourceKey: 'idUser', foreignKey: 'id', as: 'user' });
-//DB.InventoryUser.hasOne(DB.Inventory, { sourceKey: 'idInventory', foreignKey: 'id', as: 'inventory' });
-//DB.InventoryItem.hasOne(DB.Inventory, { sourceKey: 'idInventory', foreignKey: 'id', as: 'inventoryModel' });
-//DB.InventoryItem.hasMany(DB.Items, { sourceKey: 'idItem', foreignKey: 'id', as: 'items' });
+DB.InventoryUser.hasOne(DB.Users, { sourceKey: 'idUser', foreignKey: 'id', as: 'user' });
+DB.InventoryUser.hasOne(DB.Inventory, { sourceKey: 'idInventory', foreignKey: 'id', as: 'inventory' });
+DB.InventoryItem.hasOne(DB.Inventory, { sourceKey: 'idInventory', foreignKey: 'id', as: 'inventoryModel' });
+DB.InventoryItem.hasMany(DB.Items, { sourceKey: 'idItem', foreignKey: 'id', as: 'items' });
 
 export default DB;
