@@ -11,20 +11,15 @@
     "node": ">=12.0.0"
   },
   "scripts": {
-    "start": "pm2 start ecosystem.config.json --no-daemon",
-    "dev": "cross-env NODE_ENV=development nodemon src/index.js",
-    "test": "jest -i --colors --verbose --detectOpenHandles",
-    "test:watch": "jest -i --watchAll",
-    "coverage": "jest -i --coverage",
-    "coverage:coveralls": "jest -i --coverage --coverageReporters=text-lcov | coveralls",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "prettier": "prettier --check **/*.js",
-    "prettier:fix": "prettier --write **/*.js",
-    "docker:prod": "docker-compose -f docker-compose.yml -f docker-compose.prod.yml up",
-    "docker:dev": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up",
-    "docker:test": "docker-compose -f docker-compose.yml -f docker-compose.test.yml up",
-    "prepare": "husky install"
+    "start": "npm run build && cross-env NODE_ENV=production node dist/server.js",
+    "dev": "cross-env NODE_ENV=development nodemon",
+    "build": "swc src -d dist --source-maps --copy-files",
+    "build:tsc": "tsc && tsc-alias",
+    "test": "jest --forceExit --detectOpenHandles",
+    "lint": "eslint --ignore-path .gitignore --ext .ts src/",
+    "lint:fix": "npm run lint -- --fix",
+    "deploy:prod": "npm run build && pm2 start ecosystem.config.js --only prod",
+    "deploy:dev": "pm2 start ecosystem.config.js --only dev"
   },
   "keywords": [
     "node",
