@@ -28,9 +28,7 @@ const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
     logger.info(time + 'ms' + ' ' + query);
   },
   benchmark: true,
-  ssl: {
-    ca: fs.readFileSync(process.env.SSL_CA_CERTIFICATES),
-  },
+  ssl: true,
 });
 
 sequelize.authenticate();
