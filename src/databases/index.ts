@@ -6,6 +6,7 @@ import inventoryUserModel from '@/models/inventoryUser.model';
 import ItemsModel from '@/models/items.model';
 import InventoryModel from '@/models/inventory.model';
 import InvetoryItemModel from '@/models/inventoryItem.model';
+import fs from 'fs';
 
 const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
   dialect: 'mysql',
@@ -27,6 +28,9 @@ const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
     logger.info(time + 'ms' + ' ' + query);
   },
   benchmark: true,
+  ssl: {
+    ca: fs.readFileSync(process.env.SSL_CA_CERTIFICATES),
+  },
 });
 
 sequelize.authenticate();
@@ -41,9 +45,9 @@ const DB = {
   Sequelize, // library
 };
 
-DB.InventoryUser.hasOne(DB.Users, { sourceKey: 'idUser', foreignKey: 'id', as: 'user' });
-DB.InventoryUser.hasOne(DB.Inventory, { sourceKey: 'idInventory', foreignKey: 'id', as: 'inventory' });
-DB.InventoryItem.hasOne(DB.Inventory, { sourceKey: 'idInventory', foreignKey: 'id', as: 'inventoryModel' });
-DB.InventoryItem.hasMany(DB.Items, { sourceKey: 'idItem', foreignKey: 'id', as: 'items' });
+//DB.InventoryUser.hasOne(DB.Users, { sourceKey: 'idUser', foreignKey: 'id', as: 'user' });
+//DB.InventoryUser.hasOne(DB.Inventory, { sourceKey: 'idInventory', foreignKey: 'id', as: 'inventory' });
+//DB.InventoryItem.hasOne(DB.Inventory, { sourceKey: 'idInventory', foreignKey: 'id', as: 'inventoryModel' });
+//DB.InventoryItem.hasMany(DB.Items, { sourceKey: 'idItem', foreignKey: 'id', as: 'items' });
 
 export default DB;
