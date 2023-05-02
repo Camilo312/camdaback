@@ -17,7 +17,7 @@ class ApiRoute implements Routes {
   private initializeRoutes() {
     this.router.post(`${this.path}/findAll`, validationMiddleware(PetitionDTO, 'body'), this.apiController.getMultiple);
     this.router.post(`${this.path}/findOne`, validationMiddleware(PetitionDTO, 'body'), this.apiController.getOne);
-    this.router.post(`${this.path}/create`, [validationMiddleware(PetitionDTO, 'body'), valdiateModel()], this.apiController.create);
+    this.router.post(`${this.path}/create`, [validationMiddleware(PetitionDTO, 'body')], this.apiController.create);
     this.router.put(`${this.path}/update`, validationMiddleware(PetitionDTO, 'body'), this.apiController.update);
     this.router.delete(`${this.path}/delete`, validationMiddleware(PetitionDTO, 'body'), this.apiController.delete);
   }
