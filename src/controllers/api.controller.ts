@@ -32,6 +32,8 @@ class ApiController {
       const petition = req.body as PetitionDTO;
       const createElement: any = await this.apiService.create(petition.model, petition.data);
 
+      console.log(createElement);
+
       res.status(201).json({ data: createElement, message: 'created' });
     } catch (error) {
       next(error);
